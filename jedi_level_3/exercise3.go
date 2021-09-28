@@ -1,0 +1,16 @@
+package main
+
+import (
+    "fmt"
+)
+
+
+func main() {
+    born, currentYear := 1994, 2021
+    year := born
+
+    for year <= currentYear{
+        fmt.Println(year)
+        year++
+    }
+}
