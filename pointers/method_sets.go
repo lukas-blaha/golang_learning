@@ -13,6 +13,7 @@ type shape interface {
     area() float64
 }
 
+// IMPORTANT: METHOD sets the TYPE
 func (c *circle) area() float64 {
     return math.Pi * math.Pow(c.radius, 2)
 }
